@@ -1,0 +1,76 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Tabah</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/icon/partner.png" alt="logo" class="logo-img" />
+        <h1 class="logo-title">TABAH</h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#jasa">JASA</a></li>
+          <li><a href="mailto:galang@gmail.com">KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Halo lurr</p>
+        <p>Perkenalkan nami kulo Tabah Pangestu</p>
+        <img src="assets/foto/1.1.png" alt="foto1" class="img-foto" />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang">
+        <p class="title">Monggo Ngopi masseh</p>
+        <p class="description">Mantap</p>
+        <div class="tombol">
+          <button class="btn-cta" onclick="redirWhatsapp()">
+            Mari Berkenalan
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="jasa">
+          <div class="card-item">
+            <img src="assets/icon/cetak.jpeg" alt="icon 1" class="icon" />
+            <p class="card-title">Percetakan</p>
+            <p class="card-description">
+              Memiliki pengalaman dalam hal percetakan
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icon/bola.jpeg" alt="icon 2" class="icon" />
+            <p class="card-title">Bal - Balan</p>
+            <p class="card-description">Berpengalaman dalam olahraga bola</p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icon/mendoan.jpg" alt="icon 3" class="icon" />
+            <p class="card-title">Makanan Favorit</p>
+            <p class="card-description">Saya sangat menyukai mendoan</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title">Tabah Website 2022</p>
+    </footer>
+
+    <script>
+      function redirInstagram() {
+        window.location.href = "https://www.instagram.com/tabah_vodkabilly/";
+      }
+      function redirWhatsapp() {
+        window.location.href = "https://wa.me/+08895137045";
+      }
+    </script>
+  </body>
+</html>
